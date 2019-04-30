@@ -52,7 +52,6 @@ input:focus, textarea:focus, button:focus {
 
 .app-title {
   font-size: 2em;
-  margin-bottom: 1em;
   font-weight: bold;
   text-align: center;
   letter-spacing: -0.02em;

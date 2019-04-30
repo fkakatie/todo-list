@@ -21,6 +21,10 @@ ol, ul {
   list-style: none;
 }
 
+input:focus, textarea:focus, button:focus {
+  outline: none !important;
+}
+
 ::selection {
   background: yellow;
 }
@@ -42,7 +46,7 @@ ol, ul {
   background: #f99;
 }
 
-.btn:hover, .btn-red:hover {
+.btn:hover, .btn-red:hover, button:focus {
   filter: brightness(0.9);
 }
 

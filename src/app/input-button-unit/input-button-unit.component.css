@@ -1,7 +1,3 @@
-input:focus, textarea {
-  outline: none !important;
-}
-
 .todo-input {
   padding: 6px 6px 6px 0;
   font-size: 1.4em;

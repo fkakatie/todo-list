@@ -1,0 +1,22 @@
+input:focus, textarea {
+  outline: none !important;
+}
+
+.todo-input {
+  padding: 6px 6px 6px 0;
+  font-size: 1.4em;
+  font-family: 'Caveat', cursive;
+  line-height: 20px;
+  border: 0;
+  border-bottom: solid 1px #f99;
+  color: #888;
+  background: transparent;
+  /* border-radius: 5px; */
+  flex-grow: 1;
+}
+
+:host(:not([hidden])) {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}

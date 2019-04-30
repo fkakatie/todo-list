@@ -21,9 +21,7 @@ export class InputButtonUnitComponent implements OnInit {
 
   @Output() submit: EventEmitter<string> = new EventEmitter();
 
-  constructor() {
-    console.log('in constructor');
-  }
+  constructor() { }
 
   ngOnInit() {
   }
